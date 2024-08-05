@@ -6,7 +6,7 @@ const{
 
 } = require("./planets.controller")
 
-planetsRouter.get('/planets', httpgetAllPlanets)
+planetsRouter.get("/", httpgetAllPlanets)
 
 
 module.exports = planetsRouter;
